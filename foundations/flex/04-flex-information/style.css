@@ -24,3 +24,24 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+
+.title {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 32px;
+}
+
+.container {  
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+}
+
+.tile1, .tile2, .tile3, .tile4 {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
