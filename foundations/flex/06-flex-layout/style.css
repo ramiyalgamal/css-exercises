@@ -25,10 +25,10 @@ input {
   width: 400px;
 }
 
+/* SOLUTION */
 body {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
 }
 
 ul {
@@ -46,7 +46,7 @@ a {
 .footer, .header {
   display: flex;
   justify-content: space-between;
-  padding: 12px;
+  padding: 16px;
 }
 
 .left-links, .right-links {
@@ -60,11 +60,13 @@ a {
 
 .content {
   display: flex;
+  flex: 1;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   gap: 16px;
 }
 
 .buttons {
-  padding: 8px 16px;s
+  padding: 8px 16px;
 }
